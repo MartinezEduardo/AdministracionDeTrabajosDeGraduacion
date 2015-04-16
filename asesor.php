@@ -7,7 +7,7 @@
     session_start();
     //validamos si se ha hecho o no el inicio de sesion correctamente
     //si no se ha hecho la sesion nos regresará a login.php
-    if(!isset($_SESSION['usuarioFacultad']))
+    if(!isset($_SESSION['usuarioAsesor']))
     {
       header('Location: index.php');
       exit();
